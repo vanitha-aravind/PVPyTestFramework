@@ -13,67 +13,51 @@ Run Tests:
 
 
 
-#Push Your code with to git [Creating Branch and PR(Pull Request)]
+# Push Your code with to git [Creating Branch and PR(Pull Request)] in PyCharm
+1. Git -> New Branch -> Branch Name
+	Branch Name:
+		<dev-name>/<jira-id>-<title-of-work>
+		should not contains special characters ~!@#$%^*()`_<space>
+	Select checkout checkbox and create
+2. Git -> Commit
+	Select the modified filesd and ready to share
+	Commit message:
+		<jira-id> <describe your work>
+	Click on Coomit and Push from Commit dropdown
+3. Get link and open it browser [where you logged-in into Github]
+	Create a PR [Pull Request]
+	
+	
+# Checkout to other branch [Get others code]
+	Git -> Branches
+		Select the branch name
 
+# Task List
 
-#Task List
+# Person A
+Profile
 
-Person A
+Windows
 
-form 2
+Checklist
 
-windows
+Dropdown
 
-calendar
+# Person B
+Form 1
 
-drag and drop
+Frames
 
-profile
+Typing Carosuel
 
-alerts
+FileUpload
 
-Person B
+# Person C
 
-form 1
+Form 2
 
-frames
+Mouse Actions
 
-typing carousel
+Calendar
 
-hover
-
-dropdown
-
-file upload
-
-slider
-
-Person C
-
-form 2
-
-windows
-
-calendar
-
-drag and drop
-
-profile
-
-alerts
-
-Person D
-
-form 1
-
-frames
-
-typing carousel
-
-hover
-
-dropdown
-
-file upload
-
-slider
+Alerts
