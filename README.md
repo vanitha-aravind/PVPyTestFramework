@@ -2,15 +2,22 @@ PyTest Functional testing framework using Selenium WebDriver and pytTest on http
 
 # Run Scripts
  Install pipenv: 
-    $ pip install pipenv
+    
+    pip install pipenv
  
  Goto Project Directory and Install Packages:
-    $ pipenv install
+    
+    pipenv install
 
 Run Tests:
-    $ pipenv run --EMAIL=prasanna.testingclub@gmail.com
 
+   In headless Mode
 
+	pipenv run test-e2e --EMAIL=<your email>
+   
+   In Head mode
+	
+	pipenv run test-e2e-dev --EMAIL=<your email>
 
 
 # Push Your code with to git [Creating Branch and PR(Pull Request)] in PyCharm
