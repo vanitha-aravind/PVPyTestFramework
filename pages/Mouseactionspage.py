@@ -28,7 +28,7 @@ class MouseactionsPage:
         submenu2=self.driver.find_element(*SubMenu2)
         subsubmenu4=self.driver.find_element(*SubSubMenu4)
         actions.move_to_element(portfolio).move_to_element(submenu2).move_to_element(subsubmenu4).perform()
-        
+
 
 
 
