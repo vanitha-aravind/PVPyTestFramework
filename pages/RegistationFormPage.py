@@ -40,7 +40,5 @@ class RegistationFormPage:
     self.submit_registration_form()
 
 
-
-
   def gender_status(self, form_data):
     return self.driver.find_element(By.CSS_SELECTOR, f'[value*="{form_data.get("gender")}"]').is_selected()
