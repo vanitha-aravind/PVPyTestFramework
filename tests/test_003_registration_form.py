@@ -2,6 +2,8 @@
 from pages.RegistationFormPage import RegistationFormPage
 from fixtures.TestConstrains import registration_from_data
 
+
+
 reg_form_two_data = registration_from_data
 
 def test_registration_form_one(driver):
