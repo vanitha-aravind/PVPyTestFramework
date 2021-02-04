@@ -1,9 +1,15 @@
 import time
 
 from pages.Mouseactionspage import MouseactionsPage
-from selenium.webdriver.support.ui import WebDriverWait
 
-def test_Mouseactions(driver):
+def test_mouseactions(driver):
     mouseaction = MouseactionsPage(driver)
     mouseaction.Hovermenu()
+    mouseaction.Dragmenu()
+
+
+
+
+
+
 
